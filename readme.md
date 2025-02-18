@@ -75,3 +75,10 @@ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 ```
+
+```
+### 使用aapannel面板部署登录报错：遇到了些问题,我们正在进行处理
+
+sudo chmod -R 755 /www/wwwroot/路径
+sudo chown -R www:www /www/wwwroot/路径
+```
