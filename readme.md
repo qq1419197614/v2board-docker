@@ -65,3 +65,13 @@ php composer.phar update
 php artisan v2board:update
 php artisan config:cache
 ```
+
+
+### 直接下载 Composer
+
+如果你仍然遇到问题，可以尝试直接下载 Composer 的可执行文件：
+```
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+```
